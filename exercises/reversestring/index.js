@@ -10,8 +10,10 @@ function reverse(str) {
   // return str.split('').reduce((reversed, character) => {
   //   return character + reversed; 
   // }, '');
-
+  debugger;
   return str.split('').reduce((rev, char) => char + rev, '');
 }
+
+reverse('asdf');
 
 module.exports = reverse;
